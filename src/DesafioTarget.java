@@ -8,8 +8,8 @@ import java.util.Scanner;
 public class DesafioTarget {
     public static void main(String[] args) throws IOException {
         System.out.println("Testes Desenvolvedor 2");
-//        Soma();
-//        ValorFibonacci();
+        Soma();
+        ValorFibonacci();
         Faturamento();
         FaturamentoPorEstado();
         InverterPalavras();
@@ -96,6 +96,7 @@ public class DesafioTarget {
         }
 
         DadosJson[] vetor = lista.toArray(new DadosJson[0]);
+// testando:
 //        for (DadosJson d : vetor) {
 //            System.out.printf("Dia %02d - Valor: R$ %.2f%n", d.getDia(), d.getValor());
 //        }
